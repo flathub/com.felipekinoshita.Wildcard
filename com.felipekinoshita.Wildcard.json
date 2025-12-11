@@ -1,7 +1,7 @@
 {
     "id" : "com.felipekinoshita.Wildcard",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "47",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -29,26 +29,12 @@
     ],
     "modules" : [
         {
-            "name": "blueprint-compiler",
-            "buildsystem": "meson",
-		    "cleanup": [
-			    "*"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.8.1"
-                }
-            ]
-        },
-        {
             "name" : "wildcard",
             "builddir" : true,
             "buildsystem" : "meson",
-	    "config-opts" : [
-		"-Dbuildtype=release"
-	    ],
+		    "config-opts" : [
+				"-Dbuildtype=release"
+		    ],
             "sources" : [
                 {
                     "type" : "archive",
