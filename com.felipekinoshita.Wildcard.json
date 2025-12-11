@@ -29,24 +29,6 @@
     ],
     "modules" : [
         {
-            "name": "blueprint-compiler",
-            "buildsystem": "meson",
-		    "cleanup": [
-			    "*"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler",
-                    "tag": "0.18.0",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 279929
-                    }
-                }
-            ]
-        },
-        {
             "name" : "wildcard",
             "builddir" : true,
             "buildsystem" : "meson",
