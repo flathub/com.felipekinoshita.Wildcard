@@ -46,9 +46,9 @@
             "name" : "wildcard",
             "builddir" : true,
             "buildsystem" : "meson",
-	    "config-opts" : [
-		"-Dbuildtype=release"
-	    ],
+		    "config-opts" : [
+				"-Dbuildtype=release"
+		    ],
             "sources" : [
                 {
                     "type" : "archive",
