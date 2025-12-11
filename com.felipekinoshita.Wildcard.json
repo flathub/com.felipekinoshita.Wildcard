@@ -37,8 +37,12 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.8.1"
+                    "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler",
+                    "tag": "0.18.0",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 279929
+                    }
                 }
             ]
         },
